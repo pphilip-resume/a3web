@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="body.css">
+<style>
+
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="pknav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Home</a>
+  <a href="#">Our Team/People</a>
+  <a href="#">Services Provided</a>
+  <a href="#">Our Impact</a>
+  <a href="#">Careers</a>
+  <a href="#">Case Study</a>
+  <a href="#">Review</a>
+  <a href="#">Cartography / Spatial Analysis</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact Us</a>
+</div>
+
+<div id="main">
+  <span class="openbtn" onclick="openNav()">&#9776; open</span>
+  <h2>Cartographers Consultancy </h2>
+  <p>Please Join us!</p>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "2500x";
+  document.getElementById("main").style.marginRight = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginRight = "0";
+}
+</script>
+   
+</body>
+</html>
