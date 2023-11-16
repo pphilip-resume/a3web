@@ -1,0 +1,56 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .pknav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: linear-gradient(298deg,#f70b7f 3%,#9a249c 60%,#4f0dcf 97%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .pknav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    margin-bottom: 13px;
+  }
+  
+  .pknav a:hover {
+    color:#8c8c8c;
+  }
+  
+  .pknav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  #main {
+    transition: margin-right .5s;
+    padding: 260px;
+  }
+  
+  .openbtn {
+    font-size: 30px;
+    cursor: auto;
+    position:absolute;
+    top: 16px;
+    right: 26px;
+  }
+  
+  @media screen and (max-height: 550px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
