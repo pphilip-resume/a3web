@@ -49,6 +49,10 @@ body {
     right: 26px;
   }
   
+  .footer{
+    font-family: 'Lucida Sans';
+  }
+  
   @media screen and (max-height: 550px) {
     .pknav {padding-top: 15px;}
     .pknav a {font-size: 18px;}
