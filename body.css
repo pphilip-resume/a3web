@@ -51,7 +51,7 @@ body {
   
   .footer{
     font-family: 'Lucida Sans';
-    background-color: #777;
+    background-color: linear-gradient(298deg,#f70b7f 3%,#9a249c 60%,#4f0dcf 97%);
     padding: 10px;
     text-align: center;
     color: white;
