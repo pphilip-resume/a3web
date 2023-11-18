@@ -50,7 +50,7 @@ body {
   }
   
   @media screen and (max-height: 550px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .pknav {padding-top: 15px;}
+    .pknav a {font-size: 18px;}
   }
 
