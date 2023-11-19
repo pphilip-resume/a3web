@@ -77,7 +77,7 @@ body {
 
 }
 .motto{
-  padding:180px;
+  padding: 150px;
 
   background-color:#00aeff;
   display:block;}
@@ -91,6 +91,14 @@ body {
   font-weight: 400;
   font-size: 200%;
 
+}
+
+.consult{
+  color:#4f0dcf;
+  text-align: center;
+  text-decoration:underline;
+  font-style:italic;
+  font-size:100%;
 }
   
 
