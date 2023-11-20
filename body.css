@@ -100,5 +100,98 @@ body {
   font-style:italic;
   font-size:100%;
 }
+footer{
+  padding: 10%;
+  background-color: beige;
+
+}
+.footerstyle{
+  width: 100%;
+}
+.FooterIcon ul{
+  justify-content: center;
+  display: flex;
+  background-color: rgb(156, 156, 17);
+  border-radius: 100%;
+  padding: 13%;
+}
+.FooterIcon ul li{
+  padding: 3%;
+}
+.FooterIcon ul li a{
+  text-decoration: none;
+  padding: 10%;
+  margin: 2%;
+
+}
+  
+.FooterIcon a:hover{
+  background-color: brown;
+  transition: 1s;
+  padding: 3%;
+}
+.footerpage ul{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.footerpage ul li{
+  padding: 5px;
+  margin: 5%;
+  list-style-type: none;
+}
+.footerpage ul li a{
+  transition: 1s;
+  text-decoration: none;
+  font-family:  Georgia;
+  font-size: small;
+  color: rgb(228, 16, 52);   
+
+}
+.footerpage ul li a:hover{
+  opacity: 2;
+  background-color: rgb(156, 156, 17);
+}
+.footerCopyright{
+  background-color: black;
+  margin: 10% ;
+  padding: 10%;
+  
+
+}
+.footerCopyright ul {
+  display: flex;
+}
+.footerCopyright ul li{
+  padding: 5%;
+  text-decoration: none;
+  list-style-type: none;
+}
+.footerCopyright ul li a{
+  color: blueviolet;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.footerCopyright ul li a:hover{
+  transition: 0.5s;
+  color: aqua;
+}
+@media (max-width: 700px){
+  .footerpage ul{
+      flex-direction:column;
+  }
+  .footerpage ul li a{
+      width: 100%;
+      text-align: center;
+  }
+  .FooterIcon ul{
+      flex-direction: column;
+  }
+  .footerpage ul li a{
+      width: 100%;
+      text-align: center;
+  }
+}
+
   
 
