@@ -145,12 +145,12 @@ footer{
   text-decoration: none;
   font-family:  Georgia;
   font-size: small;
-  color: rgb(228, 16, 52);   
+  color: rgb(74, 192, 225);   
 
 }
 .footerpage ul li a:hover{
   opacity: 2;
-  background-color: rgb(228, 16, 52);
+  background-color: rgb(125, 221, 234);
 }
 .footerCopyright{
   background-color: black;
