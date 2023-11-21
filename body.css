@@ -206,6 +206,7 @@ footer{
 .footerCopyright ul li a:hover{
   transition: 0.5s;
   color: aqua;
+  padding: 2px;
 }
 @media (max-width: 700px){
   .footerpage ul{
