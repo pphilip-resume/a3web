@@ -169,7 +169,7 @@ body {
   .FooterIcon ul{
     justify-content: center;
     display: flex;
-    background-color: #d22fd4;
+    background-color: black;
     border-radius: 1%;
     box-sizing: content-box;
     padding: 1%;
@@ -185,7 +185,7 @@ body {
   }
     
   .FooterIcon a:hover{
-    background-color:#4f0dcf ;
+    background-color:gold ;
     transition: 1s;
     padding: 1%;
   }
@@ -193,20 +193,19 @@ body {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    padding: 1%;
-    margin: 1%;
+    padding: 5px;
+    margin: 5%;
   }
   .footerpage ul li{
-    padding: 1%;
-    margin: 1%;
+    padding: 5px;
+    margin: 0.5%;
     list-style-type: none;
   }
   .footerpage ul li a{
     transition: 1s;
     text-decoration: none;
     font-family:  Georgia;
-    font-size: small;
-    color: rgb(74, 192, 225);   
+    font-size: small;   
   
   }
   .footerpage ul li a:hover{
@@ -215,8 +214,8 @@ body {
   }
   .footerCopyright{
     background-color: black;
-    margin: 1% ;
-    padding: 1%;
+    margin: 0.5% ;
+    padding: 0.5%;
     
   
   }
@@ -227,7 +226,11 @@ body {
     padding: 1%;
     text-decoration: none;
     list-style-type: none;
+<<<<<<< HEAD
+    margin: 5%;
+=======
     margin: 1%;
+>>>>>>> b56350eb8c947a85c3429b50acf657af43479962
   }
   .footerCopyright ul li a{
     color: gold;
