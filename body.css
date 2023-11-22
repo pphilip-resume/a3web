@@ -120,6 +120,8 @@ body {
     .pknav a {font-size: 18px;}
   }
 
+/*-----------------------------------Athulya-Header-----------------*/
+
 .header{
   width:90%;
   height:100px;
@@ -134,6 +136,8 @@ body {
 
 
 }
+
+
 .motto{
   padding: 150px;
 
@@ -158,6 +162,12 @@ body {
   font-style:italic;
   font-size:100%;
 }
+@media (max-width:700px)
+{.header,.motto,.heading,.consult{
+  flex: column;
+  text-align: center;
+}}
+
 /*===================================Priscilla==========================================================================================*/
 .footer{
   padding: 10px;
