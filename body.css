@@ -144,9 +144,9 @@ body {
   justify-content: center;
   display: flex;
   background-color: #d22fd4;
-  border-radius: 250px;
+  border-radius: 10px;
   box-sizing: content-box;
-  padding: 250px;
+  padding: 10px;
 }
 .FooterIcon ul li{
   padding: 35px;
