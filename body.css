@@ -122,7 +122,7 @@ body {
 
 /*-----------------------------------Athulya-Header-----------------*/
 
-.header{
+.head{
   width:90%;
   height:100px;
   display:block;
@@ -133,14 +133,11 @@ body {
   font-weight:bold;
   font-size: 300%;
   color: #f0f8ff;
-
-
 }
 
 
 .motto{
   padding: 150px;
-
   background-color:#00aeff;
   display:block;}
 
