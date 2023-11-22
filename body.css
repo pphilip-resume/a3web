@@ -23,14 +23,9 @@ body{margin: 0;}
 
 .dkbackground{background-image: url(blackback.png);
   background-repeat: no-repeat;
-  margin-top: 30px;
-  z-index:.5;
- 
-  
-   
-  width: 100%;
+  margin-bottom:5%;width: 100%;
   height: 100%;
-  image-rendering: crisp-edges;
+  transition-duration:4s ;
   padding: auto;
 }
 
