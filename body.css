@@ -168,12 +168,12 @@ body {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    padding: 5px;
-    margin: 0.5%;
+    padding: 5%;
+    margin: 5%;
   }
   .footerpage ul li{
-    padding: 5px;
-    margin: 0.5%;
+    padding: 5%;
+    margin: 5%;
     list-style-type: none;
   }
   .footerpage ul li a{
@@ -190,8 +190,8 @@ body {
   }
   .footerCopyright{
     background-color: black;
-    margin: 10px ;
-    padding: 10px;
+    margin: 10% ;
+    padding: 10%;
     
   
   }
@@ -199,10 +199,10 @@ body {
     display: flex;
   }
   .footerCopyright ul li{
-    padding: 5px;
+    padding: 5%;
     text-decoration: none;
     list-style-type: none;
-    margin: 0.5%;
+    margin: 5%;
   }
   .footerCopyright ul li a{
     color: gold;
@@ -212,7 +212,7 @@ body {
   .footerCopyright ul li a:hover{
     transition: 0.5s;
     color: rgb(244, 176, 5);
-    padding: 2px;
+    padding: 2%;
 
   }
   @media (max-width: 700px){
