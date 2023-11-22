@@ -23,10 +23,12 @@ body{margin: 0;}
 
 .dkbackground{background-image: url(blackback.png);
   background-repeat: no-repeat;
-  margin-bottom:5%;width: 100%;
+  margin-bottom:20%;
+  width: 100%;
   height: 100%;
   transition-duration:4s ;
-  padding: auto;
+  align-items: center;
+  
 }
 
 .img {
