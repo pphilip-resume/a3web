@@ -1,4 +1,4 @@
-/*===================================DENNIS========================= start=================================================================*/
+/*===================================DENNIS========================= stop=================================================================*/
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -11,7 +11,7 @@
   padding: 0 8px;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 650px){
     .column {
     width: 100%;
     display: block;
@@ -22,11 +22,15 @@ body{margin: 0;}
 
 
 .dkbackground{background-image: url(blackback.png);
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  z-index:.5;
+ 
+  
+   
   width: 100%;
-  height: 100%;
-  image-rendering: crisp-edges;
-  padding: auto;
+  height: 100%
+  
 }
 
 .img {
@@ -49,7 +53,7 @@ HEAD
 /*===================================DENNIS==== stop======================================================================================*/
 
 
-/*=============================================================================================================================*/
+/*===================================DENNIS==========================================================================================*/
 
 
 
@@ -170,9 +174,9 @@ body {
     justify-content: center;
     display: flex;
     background-color: black;
-    border-radius: 1%;
+    border-radius: 10%;
     box-sizing: content-box;
-    padding: 1%;
+    padding: 5%;
   }
   .FooterIcon ul li{
     padding: 35px;
@@ -187,7 +191,7 @@ body {
   .FooterIcon a:hover{
     background-color:gold ;
     transition: 1s;
-    padding: 1%;
+    padding: 5%;
   }
   .footerpage ul{
     display: flex;
@@ -198,7 +202,7 @@ body {
   }
   .footerpage ul li{
     padding: 5px;
-    margin: 0.5%;
+    margin: 3%;
     list-style-type: none;
   }
   .footerpage ul li a{
@@ -226,11 +230,7 @@ body {
     padding: 1%;
     text-decoration: none;
     list-style-type: none;
-<<<<<<< HEAD
     margin: 5%;
-=======
-    margin: 1%;
->>>>>>> b56350eb8c947a85c3429b50acf657af43479962
   }
   .footerCopyright ul li a{
     color: gold;
