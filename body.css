@@ -169,11 +169,11 @@ body {
     justify-content: center;
     text-decoration: none;
     padding: 5px;
-    margin: 0.5%;
+    margin: 5%;
   }
   .footerpage ul li{
     padding: 5px;
-    margin: 0.5%;
+    margin: 5%;
     list-style-type: none;
   }
   .footerpage ul li a{
@@ -202,7 +202,7 @@ body {
     padding: 5px;
     text-decoration: none;
     list-style-type: none;
-    margin: 0.5%;
+    margin: 5%;
   }
   .footerCopyright ul li a{
     color: gold;
