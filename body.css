@@ -1,4 +1,4 @@
-/*===================================DENNIS==========================================================================================*/
+/*===================================DENNIS========================= stop=================================================================*/
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -20,23 +20,36 @@
 }
 body{margin: 0;}
 
+
+.dkbackground{background-image: url(blackback.png);
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  z-index:.5;
+ 
+  
+   
+  width: 100%;
+  height: 100%
+  
+}
+
 .img {
   max-width: 100%; 
   height: auto;  
 }
 .employee{
-  font-size: 3vw;
+  font-size: 2vw;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
   font-weight:bold;
 
 }
-.emoloyeedesc{font-size: 2vw;
+.emoloyeedesc{font-size: 1vw;
   font-family:Arial, Helvetica, sans-serif ;
   font-style:italic;
   font-weight:normal;
 
 }
-/*===================================DENNIS==========================================================================================*/
+/*===================================DENNIS==== stop======================================================================================*/
 
 
 
