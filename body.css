@@ -197,14 +197,12 @@ body {
   }
   .footerCopyright ul {
     display: flex;
-    padding: 0.25%;
   }
   .footerCopyright ul li{
     padding: 5px;
     text-decoration: none;
     list-style-type: none;
     margin: 0.5%;
-    justify-content: center;
   }
   .footerCopyright ul li a{
     color: gold;
@@ -235,7 +233,7 @@ body {
     .footerCopyright ul{
       flex-direction:column;
     }
-    .footerCopyright ul li a{
+    .footerCopyright ul li{
       width: 100%;
       text-align: center;
     }
