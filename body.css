@@ -18,7 +18,7 @@
     box-sizing: border-box;
   }
 }
-body{margin: 0;}
+
 
 
 .dkbackground{background-image: url(blackback.png);
@@ -248,7 +248,7 @@ body {
   padding: 2px;
 
 }
-@media (max-width: 700px){
+@media screen and (max-width: 700px){
   .footerpage ul{
       flex-direction:column;
   }
