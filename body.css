@@ -19,7 +19,9 @@
   }
 }
 
-
+.logoimg {
+  float:left;
+}
 
 .dkbackground{background-image: url(blackback.png);
   background-repeat: no-repeat;
