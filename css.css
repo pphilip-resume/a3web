@@ -60,7 +60,7 @@
     text-align: center;
     font-size: 35px;
     color: white;
-    background-image: url("images/mount.jpg");
+    background-image: url("mount.jpg");
   }
   /* For mobile phones: */
   [class*="col-"] {
