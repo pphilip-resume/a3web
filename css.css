@@ -125,7 +125,17 @@
   text-align: center;
   
 }
-
+.CareerTitle{
+  font-weight:bold ;
+}
+.option{
+  text-align:center ;
+}
+.mail{
+  text-emphasis-color: red ;
+  background-color: yellow;
+  padding: 3px; ;
+}
     /* Style for seasrch container */
 .searchc {
     text-align: right;
