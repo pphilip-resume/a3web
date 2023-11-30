@@ -121,6 +121,7 @@
     transition: 1s;
     padding: 10px;
     }
+.careers
 
     /* Style for seasrch container */
 .searchc {
@@ -146,29 +147,4 @@
     border-radius: 4px;
     cursor: pointer;
   }
-  .txt{
-      text-align: center;
-      color: #176572;
-      text-shadow: 2px 2px;
-    }
-  .contactinfo{
-    font-size: 100%;
-    margin:10%;
-    width: 40%;
-    padding: 10px;
-}
-.tab{
-  color:#9a249c;
-  margin:10%;
-  border: 2px solid rgb(230, 212, 212);
-  outline: #232523 solid 10px;
-  
-  padding: 10px;
-  text-align: center;
-
-}
-
-  
-
-
   
