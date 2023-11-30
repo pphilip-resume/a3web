@@ -104,7 +104,8 @@
     color: white;
     text-align: center;
     background-position: 0%;
-    position: relative;
+    position: fixed;
+    box-sizing: border-box;
     }
 .FooterIcon ul li a{
     text-align: center;
