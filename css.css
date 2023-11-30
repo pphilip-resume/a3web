@@ -61,6 +61,8 @@
     font-size: 35px;
     color: white;
     background-image: url("mount.jpg");
+    background-attachment: fixed;
+    
   }
   /* For mobile phones: */
   [class*="col-"] {
