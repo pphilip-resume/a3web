@@ -129,12 +129,14 @@
   font-weight:bold ;
 }
 .option{
-  text-align:center ;
+  text-align:left ;
+  padding: 2px;
 }
 .mail{
-  text-emphasis-color: red ;
   background-color: yellow;
   padding: 3px; ;
+  -webkit-text-fill-color: crimson;
+  text-decoration: none;
 }
     /* Style for seasrch container */
 .searchc {
