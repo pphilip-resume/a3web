@@ -121,6 +121,7 @@
     transition: 1s;
     padding: 10px;
     }
+.careers
 
     /* Style for seasrch container */
 .searchc {
@@ -146,6 +147,8 @@
     border-radius: 4px;
     cursor: pointer;
   }
+<<<<<<< HEAD
+=======
   /*contact us page -athulya*/
   .txt{
       text-align: center;
@@ -173,11 +176,13 @@
   
 
 
+>>>>>>> 06abf901f596e7022efb3ad2bc475d03fd5f39e6
   
 
 
   /*dennis*/
   .logo{margin-top: 0%;
   margin-left:0%;
-  padding:0%;}
+margin-bottom: 100%;
+margin-right: 100%;}
   
