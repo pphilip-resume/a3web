@@ -121,7 +121,10 @@
     transition: 1s;
     padding: 10px;
     }
-.careers
+.careers{
+  text-align: center;
+  
+}
 
     /* Style for seasrch container */
 .searchc {
