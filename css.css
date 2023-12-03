@@ -190,4 +190,13 @@ height: 198px;
 background-image:url("frame.jpg") ;
 background-position: bottom;
 background-repeat: no-repeat ;}
+
+
+.figure{
+  display: block;
+  margin: 0px;
+  padding: 10px;
+  text-align: left;
+border: 1px solid #d6d6d6;}
+
   
