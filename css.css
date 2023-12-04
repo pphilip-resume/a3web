@@ -163,13 +163,13 @@ left:10px;}
   text-align: center;
 
 }
-/* .footer {
-  left: 0;
+.footer {
+  
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color:beige;
   color: white;
-  text-align: center;
+  
 } */ 
 .footer1-content {
   max-width: 600px;
@@ -210,6 +210,6 @@ background-repeat: no-repeat ;}
   margin: 0px;
   padding: 10px;
   text-align: left;
-border: 1px solid #d6d6d6;}
+  border: 1px solid #d6d6d6;}
 
   
