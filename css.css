@@ -99,15 +99,7 @@
     .col-12 {width: 100%;}
   }
   
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-}
+
 .careers{
   text-align: center;
   
@@ -171,7 +163,15 @@ left:10px;}
   text-align: center;
 
 }
-
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
 .entry{width: 220px;
 float: left;
 margin: 10px;
