@@ -100,11 +100,11 @@
   }
   
 .footer {
-    position:fixed
-  text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
+    position:fixed;
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
 }
 .careers{
   text-align: center;
