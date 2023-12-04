@@ -99,28 +99,13 @@
     .col-12 {width: 100%;}
   }
   
-.footer {
-    width: 100%;
-    background: linear-gradient(298deg,#f70b7f 3%,#9a249c 60%,#4f0dcf 97%);
-    color: white;
-    text-align: center;
-    background-position: 0%;
-    position: fixed;
-    box-sizing: border-box;
-    margin: bottom 0%;
-    }
-.FooterIcon ul li a{
-    text-align: center;
-    padding: 50px;
-    margin: 20px;
-    text-shadow: none;
-    
-    }
-.FooterIcon a:hover{
-    background-color:white;
-    transition: 1s;
-    padding: 10px;
-    }
+footer {
+    position:fixed
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
 .careers{
   text-align: center;
   
