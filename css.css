@@ -171,9 +171,31 @@ left:10px;}
   color: white;
   text-align: center;
 } */ 
+.footer1-content {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer1-column ul {
+  list-style: none;
+  padding: 0;
+}
 
-.footer1-column{
-    background-colour: yellow
+.footer1-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer1-column ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer1-column ul li a:hover {
+  color: #555;
+}
+
 .entry{width: 220px;
 float: left;
 margin: 10px;
