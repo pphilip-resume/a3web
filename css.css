@@ -164,7 +164,6 @@ left:10px;}
 
 }
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -172,6 +171,9 @@ left:10px;}
   color: white;
   text-align: center;
 }
+
+.footer1-column{
+    background-colour: yellow
 .entry{width: 220px;
 float: left;
 margin: 10px;
