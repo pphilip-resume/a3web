@@ -147,9 +147,7 @@
     border-radius: 4px;
     cursor: pointer;
   }
-  .txt{
-    
-  }
+ 
   
 
 
@@ -158,4 +156,9 @@
   margin-left:0%;
 margin-bottom: 100%;
 margin-right: 100%;}
+
+/*style the contact*/
+.contact{
+  margin:10px;
+}
   
