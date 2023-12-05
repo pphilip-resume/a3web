@@ -176,7 +176,7 @@ background-size: cover;
 .footer{
   position:bottom;
   bottom:0px
-.footer-content {
+.footer .footer-content {
 /* max-width: 600px;  */
 margin: 0 auto;
 display: flexbox;
@@ -187,7 +187,7 @@ background-color: beige;
 }
 
 
-.footer-column ul {
+.footer-content .footer-column ul {
 list-style: none;
 padding: 0;
 background-color: beige;
