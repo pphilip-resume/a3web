@@ -229,11 +229,12 @@ background-repeat: no-repeat ;}
     position:absolute;
     min-height: 100vh;
     padding:50px 100px;
-    display:flex;
+    display:block;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-size: cover;
+    padding-right: 20px;
+    
   }
   .contact.content{
     max-width: 800px;
