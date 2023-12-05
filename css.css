@@ -269,13 +269,14 @@ color: #555;
 
 footer{
   
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   background: rgb(225, 135, 239);
   height: auto;
-  padding-top: 40px;
-  color: rgb(13, 2, 72);
+  position:fixed;
+  padding-top: 3px;
+  color: rgb(203, 202, 210);
  }
 .footer_start{
   display: flex;
