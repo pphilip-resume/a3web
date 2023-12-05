@@ -171,3 +171,84 @@ margin-right: 100%;}
   justify-content: center;
 }
 
+ .footer-content {
+  /* max-width: 600px;  */
+  margin: 0 auto;
+  display: flexbox;
+  justify-content: space-between;
+  background-color: beige;
+  /* flex-direction: row; */
+  }
+
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  background-color: beige;
+  
+  /* text-decoration: none; */
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #555;
+}
+@media only screen and (min-width: 768px){
+  .footer-column{
+    flex-direction:column;
+  }
+  .footer-content{
+    flex-direction:column;
+  }
+  
+  .footer ul li a{
+      width: 100%;
+      text-align: center;
+  }}
+
+
+
+.figure{
+  display: block;
+  margin: 0px;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #d6d6d6;
+  padding-left:30%;
+  
+}
+
+.aboutheader {
+  position: relative;
+  padding: 200px 0; }
+
+.reviewback{background-image: url(images/blackback.png) ;
+  background-attachment: fixed;
+  background-size: cover;
+            overflow-x: hidden;}
+.reviewper1{background-image: url("images/peopler.png");
+  padding: 30px;
+  
+}
+.reviewper2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: italic;
+font-size: large;
+color: gold;
+float: left;
+display:inline;
+
+margin-left: 30%;
+
+}
+.reviewper3{align-items: center;
+  display:block;}
