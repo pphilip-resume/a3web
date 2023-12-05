@@ -228,14 +228,14 @@ background-repeat: no-repeat ;}
   .contact{
     position:absolute;
     min-height: 100vh;
-    padding:50px 100px;
+    
     display:block;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-right: 20px;
+    padding-right: 20px;}
     
-  }
+  /* }
   .contact.content{
     max-width: 800px;
     text-align: center;
@@ -253,4 +253,4 @@ background-repeat: no-repeat ;}
     width: 50px;
     display:flex;
     flex-direction: column;
-  }
+  } */
