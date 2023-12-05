@@ -239,3 +239,8 @@ background-repeat: no-repeat ;}
     max-width: 800px;
     text-align: center;
   }
+  .contact.content h2{
+    font-size: 20px;
+    font-weight:600;
+    color:#a52a2a;
+  }
