@@ -226,7 +226,7 @@ background-repeat: no-repeat ;}
 
   /*style for contact*/
   .contact{
-    position:relative;
+    position:absolute;
     min-height: 100vh;
     padding:50px 100px;
     display:flex;
@@ -234,4 +234,8 @@ background-repeat: no-repeat ;}
     align-items: center;
     flex-direction: column;
     background-size: cover;
+  }
+  .contact.content{
+    max-width: 800px;
+    text-align: center;
   }
