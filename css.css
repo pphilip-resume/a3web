@@ -248,9 +248,8 @@ background-repeat: no-repeat ;}
     font-weight: 600;
     color:#000000;
   }
-  .container{
-    width:100%;
-    display:block;
-    justify-content: center;
-    align-items: center;
+  .contactinfo{
+    width: 50px;
+    display:flex;
+    flex-direction: column;
   }
