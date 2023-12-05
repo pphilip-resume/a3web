@@ -230,5 +230,25 @@ background-attachment: fixed;
 
 .aboutheader {
   position: relative;
-  padding: 200px 0; /* Adjust the padding to give space for the fixed header */
+  padding: 200px 0; }
+
+.reviewback{background-image: url(images/blackback.png) ;
+  background-attachment: fixed;
+  background-size: cover;
+            overflow-x: hidden;}
+.reviewper1{background-image: url("images/peopler.png");
+  padding: 30px;
+  
 }
+.reviewper2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: italic;
+font-size: large;
+color: gold;
+float: left;
+display:inline;
+
+margin-left: 30%;
+
+}
+.reviewper3{align-items: center;
+  display:block;}
