@@ -268,12 +268,13 @@ color: #555;
 
 
 footer{
-  position: absolute;
+  
   bottom: 0;
   left: 0;
   right: 0;
   background: rgb(225, 135, 239);
   height: auto;
+  position:fixed
   /* width: 100vw; */
   padding-top: 40px;
   color: rgb(13, 2, 72);
