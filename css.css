@@ -223,3 +223,12 @@ background-repeat: no-repeat ;}
   padding: 10px;
   text-align: left;
   border: 1px solid #d6d6d6;}
+
+  /*style for contact*/
+  .contact{
+    position:relative;
+    min-height: 100vh;
+    padding:50px 100px;
+    display:flex;
+    
+  }
