@@ -180,6 +180,7 @@ margin: 0 auto;
 display: flexbox;
 justify-content: space-between;
 background-color: beige;
+  margin-bottom:2px;
 /* flex-direction: row; */
 }
 
