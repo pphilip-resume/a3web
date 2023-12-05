@@ -1,177 +1,252 @@
 
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;   
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-  }
-  
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-  }
-  
-  html {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
 
-  
-  .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .menu li {
-    padding: 8px;
-    margin-bottom: 7px;
-    background: linear-gradient(298deg,#f70b7f 3%,#9a249c 60%,#4f0dcf 97%);
-    color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  }
-  
-  .menu li a{
-    color:white;
-    cursor: pointer;
-    display: inline-block;
-    transition: all 0.3s;
-    
-  }
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;   
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background: linear-gradient(298deg,#f70b7f 3%,#9a249c 60%,#4f0dcf 97%);
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li a{
+  color:white;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s;
   
-  .aside {
-    background: linear-gradient(298deg,#f70b7f 3%,#9a249c 60%,#4f0dcf 97%);
-    padding-left: 35px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    color: #ffffff;
-    box-shadow: 0 10px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  }
-  
+}
+
+
+.aside {
+  background: linear-gradient(298deg,#f70b7f 3%,#9a249c 60%,#4f0dcf 97%);
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+  box-shadow: 0 10px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
 .header {
-    background-color: #03a8a8;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    color: white;
-    background-image: url("images/mount.jpg");
-    background-attachment: fixed;
-  }
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-  
-  @media only screen and (min-width: 600px) {
-    /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
+  background-color: #03a8a8;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  background-image: url("images/mount.jpg");
+  background-attachment: fixed;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
 
-  }
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
 
-  }
-  
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+}
+
 
 .careers{
-  text-align: center;
-  
+text-align: center;
+
 }
 .CareerTitle{
-  font-weight:bold ;
+font-weight:bold ;
 }
 .option{
-  text-align:left ;
-  padding: 2px;
+text-align:left ;
+padding: 2px;
 }
 .mail{
-  background-color: yellow;
-  padding: 3px; ;
-  -webkit-text-fill-color: crimson;
-  text-decoration: none;
+background-color: yellow;
+padding: 3px; ;
+-webkit-text-fill-color: crimson;
+text-decoration: none;
 }
-    /* Style for seasrch container */
+  /* Style for seasrch container */
 .searchc {
-    text-align: right;
-    margin-top: 20px;
-  }
-  
-  /* Style for the search input */
-  .searchc input[type=text] {
-    padding: 10px;
-    width: 20%; /* Adjust width as needed */
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box; /* Ensure padding doesn't increase width */
-  }
-  
-  /* Style for the search button */
-  .searchc button {
-    padding: 10px 10px;
-    background-color: #0099cc;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  
-
-
-  /*dennis*/
-  .logo{margin-top: 0%;
-  margin-left:0%;
-margin-bottom: 100%;
-margin-right: 100%;}
-
-/*dfldgf*/
-
-.contact{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-right: 150px;
-  margin-left: 80px;
-  position:absolute;
-  display:flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.contact.content{
-  max-width: 200px;
-  text-align: center;
+  text-align: right;
+  margin-top: 20px;
 }
 .contact.content.h2{
   font-size: 50px;
 }
 
+/* Style for the search input */
+.searchc input[type=text] {
+  padding: 10px;
+  width: 20%; /* Adjust width as needed */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding doesn't increase width */
+}
+
+/* Style for the search button */
+.searchc button {
+  padding: 10px 10px;
+  background-color: #0099cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+}
+
+/*dennis*/
+.logo{position:absolute;
+top:10px;
+left:10px;}
+
+.wrapper{
+min-width: 100%;
+margin:0px auto;
+background-color: dimgray;
+background-image:url("abtus_back.jpg");
+background-position:center;
+background-size: 100%;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+box-sizing: border-box;
+background-attachment: fixed;
+background-size: cover;
+          overflow-x: hidden;
+
+
+
+}
+
+.footer-content {
+/* max-width: 600px;  */
+margin: 0 auto;
+display: flexbox;
+justify-content: space-between;
+background-color: beige;
+/* flex-direction: row; */
+}
+
+
+.footer-column ul {
+list-style: none;
+padding: 0;
+background-color: beige;
+
+/* text-decoration: none; */
+}
+
+.footer-column ul li {
+margin-bottom: 8px;
+text-decoration: none;
+}
+
+.footer-column ul li a {
+text-decoration: none;
+color: #333;
+transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+color: #555;
+}
+@media only screen and (min-width: 768px){
+.footer-column{
+  flex-direction:column;
+}
+.footer-content{
+  flex-direction:column;
+}
+
+.footer ul li a{
+    width: 100%;
+    text-align: center;
+}}
+
+
+
+.figure{
+display: block;
+margin: 0px;
+padding: 10px;
+text-align: left;
+border: 1px solid #d6d6d6;
+padding-left:30%;
+
+}
+
+.aboutheader {
+position: relative;
+padding: 200px 0; }
+
+.reviewback{background-image: url(images/blackback.png) ;
+background-attachment: fixed;
+background-size: cover;
+          overflow-x: hidden;}
+.reviewper1{background-image: url("images/peopler.png");
+padding: 30px;
+
+}
+.reviewper2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: italic;
+font-size: large;
+color: gold;
+}
+.reviewper3{align-items: center;
+display:block;}
