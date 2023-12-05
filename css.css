@@ -233,4 +233,5 @@ background-repeat: no-repeat ;}
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-size: cover;
   }
