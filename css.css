@@ -2,11 +2,13 @@
 * {
     box-sizing: border-box;
   }
+
+  
   
   .row::after {
     content: "";
     clear: both;
-    display: table;
+    display: table;   
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
   }
