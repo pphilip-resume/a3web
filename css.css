@@ -277,6 +277,7 @@ footer{
   position:fixed;
   padding-top: 3px;
   color: rgb(203, 202, 210);
+  z-index: -1;
  }
 .footer_start{
   display: flex;
