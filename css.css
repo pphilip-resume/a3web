@@ -126,6 +126,9 @@ text-decoration: none;
   text-align: right;
   margin-top: 20px;
 }
+.contact.content.h2{
+  font-size: 50px;
+}
 
 /* Style for the search input */
 .searchc input[type=text] {
