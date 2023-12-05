@@ -244,3 +244,7 @@ background-repeat: no-repeat ;}
     font-weight:600;
     color:#a52a2a;
   }
+  .contact.content p{
+    font-weight: 600;
+    color:#000000;
+  }
