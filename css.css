@@ -243,7 +243,8 @@ padding: 30px;
 .reviewper2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-style: italic;
 font-size: large;
-color: gold;
+color: gold
+;display: block;
 }
 .reviewper3{align-items: center;
 display:block;}
