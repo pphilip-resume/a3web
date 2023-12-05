@@ -378,7 +378,9 @@ display: block;
   }
 
   .image{
-    background-image: H\Downloads\topographic-map-background(4071457.jpg)
+    background-image:url("images/as-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .contact{
   padding-top: 150px;
