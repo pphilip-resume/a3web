@@ -145,9 +145,7 @@
     border-radius: 4px;
     cursor: pointer;
   }
-  .txt{
-    
-  }
+  
   
 
 
@@ -156,4 +154,12 @@
   margin-left:0%;
 margin-bottom: 100%;
 margin-right: 100%;}
+
+/*dfldgf*/
+.contact{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
   
