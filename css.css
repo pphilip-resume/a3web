@@ -275,6 +275,7 @@ footer{
   background: rgb(225, 135, 239);
   height: auto;
   position:relative;
+  overflow: hidden;
   padding-top: 3px;
   color: rgb(203, 202, 210);
 
