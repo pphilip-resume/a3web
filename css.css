@@ -228,7 +228,6 @@ background-repeat: no-repeat ;}
   .contact{
     position:absolute;
     min-height: 100vh;
-    
     display:block;
     justify-content: center;
     align-items: center;
