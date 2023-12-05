@@ -144,10 +144,29 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  
 
+  
+  }
+
+  /*dennis*/
+  .logo{position:absolute;
+  top:10px;
+left:10px;}
+
+.wrapper{
+  min-width: 100%;
+  margin:0px auto;
+  background-color: dimgray;
+  background-image:url("abtus_back.jpg");
+  background-position:center;
+  background-size: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  box-sizing: border-box;
+background-attachment: fixed;
+  background-size: cover;
+            overflow-x: hidden;
+ 
 
 
 }
