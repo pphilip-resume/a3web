@@ -274,7 +274,7 @@ footer{
   right: 0px;
   background: rgb(225, 135, 239);
   height: auto;
-  position:fixed;
+  position:relative;
   padding-top: 3px;
   color: rgb(203, 202, 210);
 
