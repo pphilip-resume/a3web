@@ -456,6 +456,23 @@ display: block;
     
   }
   }
+  .remote{
+    color: #4f0dcf;
+    font-weight: 300;
+    text-align: center;
+    padding: 12px;
+  }
+  .remote_header{
+    color:#9a249c;
+    font-style:italic ;
+    text-align: center;
+
+  }
+
+  .overview p{
+    color: #000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
 /*athulya contact*/
   .image{
     background-image:url("images/as-1.png");
