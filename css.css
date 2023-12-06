@@ -32,6 +32,7 @@
   padding: 15px;
 }
 
+
 html {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -56,9 +57,8 @@ html {
   cursor: pointer;
   display: inline-block;
   transition: all 0.3s;
-  
 }
-
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 .aside {
   background: linear-gradient(298deg,#f70b7f 3%,#9a249c 60%,#4f0dcf 97%);
@@ -122,6 +122,9 @@ html {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 
+}
+ul.li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
