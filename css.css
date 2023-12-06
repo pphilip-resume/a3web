@@ -353,6 +353,9 @@ font-style: italic;}
   justify-content: center;
   margin: 1rem 0 3rem 0;
 }
+.footer_media ul{
+  display: flex;
+}
 .footer_media li{
   margin: 0 10px;
 }
@@ -417,8 +420,17 @@ display: block;
 @media (max-width:700px) {
   .footer_menu ul{
     display: flex;
+    flex-direction: column;
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+  .footer_media {
+    
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    
   }
   }
 /*athulya contact*/
@@ -456,3 +468,25 @@ display: block;
     grid-template-columns: auto auto ;
     gap:2px;
   }
+ .hmm {
+    font-size: larger;
+    line-height: 0.8cm;
+    padding-left: 60px;
+  }
+  
+  .hmm1{
+padding-top: 80px;
+line-height: 0.6cm;
+  }
+
+.hmm2{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 412px;
+}
+
+
+.hmm2:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
