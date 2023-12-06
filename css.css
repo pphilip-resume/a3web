@@ -1,11 +1,9 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+  
   .row::after {
     content: "";
     clear: both;
@@ -526,3 +524,8 @@ line-height: 0.6cm;
  border-radius: 20px;
  }
  /* end of new box */
+ /* casestudy font */
+
+ p{
+  font-size: larger;
+ }
