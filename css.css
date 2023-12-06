@@ -122,11 +122,49 @@ text-align: center;
 }
 .CareerTitle{
 font-weight:bold ;
+background-color: lightpink;
 }
-.option{
-text-align:left ;
+.option_1{
+text-align:center ;
 padding: 2px;
+background-color: lightcyan;
+text-decoration: none;
+font-family: Cambria, serif;
+margin: 2px;
+color: #9a249c ;
 }
+.option_2{
+  text-align:center ;
+  padding: 2px;
+  background-color: lightblue;
+  text-decoration: none;
+  font-family: Cambria, serif;
+  margin: 2px;
+}
+.option_3{
+    text-align:center ;
+    padding: 2px;
+    background-color: lightcoral;
+    text-decoration: none;
+    font-family: Cambria, serif;
+    margin: 2px;
+  }
+  .option_4{
+    text-align:center ;
+    padding: 2px;
+    background-color: lightcoral;
+    text-decoration: none;
+    font-family: Cambria, serif;
+    margin: 2px;
+  }
+  .option_5{
+    text-align:center ;
+    padding: 2px;
+    background-color: lightblue;
+    text-decoration: none;
+    font-family: Cambria, serif;
+    margin: 2px;
+  }
 .mail{
 background-color: yellow;
 padding: 3px; ;
