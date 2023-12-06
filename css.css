@@ -3,9 +3,7 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
   }
-  body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+  
   .row::after {
     content: "";
     clear: both;
