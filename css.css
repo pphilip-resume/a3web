@@ -346,6 +346,9 @@ color: #555;
   justify-content: center;
   margin: 1rem 0 3rem 0;
 }
+.footer_media ul{
+  display: flex;
+}
 .footer_media li{
   margin: 0 10px;
 }
@@ -410,8 +413,17 @@ display: block;
 @media (max-width:700px) {
   .footer_menu ul{
     display: flex;
+    flex-direction: column;
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+  .footer_media {
+    
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    
   }
   }
 /*athulya contact*/
