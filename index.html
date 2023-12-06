@@ -9,6 +9,7 @@
    
 <div class="header">
   <h1>Geohub Solutions</h1>
+  <p>Towards a better world</p>
   <img class="logo" src="images/PAGE_LOGO.png" alt="logo">
   <div class="searchc">
     <input type="text" id="search" name="search" placeholder="Search...">
@@ -38,7 +39,45 @@
       Our work enables you to rethink and innovate new prospective solutions tailored to suit your unique business problems. 
       Be it a large multinational corporation or a small startup, we facilitate your prosperity and growth towards a better world.</p>
   </div>
- 
+ <div>
+  <div id="clickbox1" onclick="myFunction1()">Spatial Analysis</div>
+<script>
+function myFunction1() {
+  var x = document.getElementById("clickbox1");
+  if (x.innerHTML === "Spatial Analysis") {
+    x.innerHTML = "Transform complex data into actionable insights with our advanced spatial analysis and custom data visualization services.";
+  } else {
+    x.innerHTML = "Spatial Analysis";
+  }
+}
+</script>
+
+<script>
+  function myFunction2() {
+    var x = document.getElementById("clickbox2");
+    if (x.innerHTML === "GIS Implementation & Integration") {
+      x.innerHTML = "Seamlessly integrate GIS technology into your existing systems to enhance productivity and streamline workflows.";
+    } else {
+      x.innerHTML = "GIS Implementation & Integration";
+    }
+  }
+  </script>
+
+<div id="clickbox2" onclick="myFunction2()">GIS Implementation & Integration</div>
+
+<div id="clickbox3" onclick="myFunction3()">Remote Sensing & Photogrammetry</div>
+<script>
+function myFunction3() {
+  var x = document.getElementById("clickbox3");
+  if (x.innerHTML === "Remote Sensing & Photogrammetry") {
+    x.innerHTML = "Leverage high-resolution imagery and cutting-edge remote sensing techniques for accurate mapping and analysis.";
+  } else {
+    x.innerHTML = "Remote Sensing & Photogrammetry";
+  }
+}
+</script>
+ </div>
+
   <div class="col-3 col-s-12">
     <div class="aside">
         <img src="Resize.jpg" alt="R"  width="281" height="500"> 

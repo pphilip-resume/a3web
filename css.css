@@ -77,6 +77,13 @@ html {
   background-image: url("images/mount.jpg");
   background-attachment: fixed;
 }
+
+.header p{
+  font-style:italic;
+  padding: 0;
+  margin: 0;
+}
+
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
@@ -501,3 +508,40 @@ line-height: 0.6cm;
 .hmm2:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+/* Emmanuel - home - new box */
+#clickbox1{
+  width: 300px;
+ height: 200px;
+ background: linear-gradient(298deg,#f70b7f 3%,#9a249c 60%,#4f0dcf 97%);
+ text-align: center;
+ font-size: larger;
+ color: #fff;
+ cursor: pointer;
+ border: 10px solid #000;
+ border-radius: 20px;
+ }
+
+#clickbox2{
+  width: 300px;
+ height: 200px;
+ background: linear-gradient(298deg,#f70b7f 3%,#9a249c 60%,#4f0dcf 97%);
+ text-align: center;
+ font-size: larger;
+ color: #fff;
+ cursor: pointer;
+ border: 10px solid #000;
+ border-radius: 20px;
+ }
+
+#clickbox3{
+  width: 300px;
+ height: 200px;
+ background: linear-gradient(298deg,#f70b7f 3%,#9a249c 60%,#4f0dcf 97%);
+ text-align: center;
+ font-size: larger;
+ color: #fff;
+ cursor: pointer;
+ border: 10px solid #000;
+ border-radius: 20px;
+ }
+ /* end of new box */
