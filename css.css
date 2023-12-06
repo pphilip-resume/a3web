@@ -574,3 +574,8 @@ line-height: 0.6cm;
  border-radius: 20px;
  }
  /* end of new box */
+ /* casestudy font */
+
+ p{
+  font-size: larger;
+ }
