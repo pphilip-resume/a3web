@@ -334,6 +334,7 @@ display: block
 color: cadetblue;
 font-style: italic;
 }
+/* Priscilla */
 
 .footer{
   position: absolute;
@@ -455,6 +456,28 @@ display: block;
       margin-bottom: 20px;
     
   }
+  }
+  .remote{
+    color: #4f0dcf;
+    font-weight: 300;
+    text-align: center;
+    padding: 12px;
+  }
+  .remote_header{
+    color:#9a249c;
+    font-style:italic ;
+    text-align: center;
+
+  }
+
+  .overview p{
+    color: #000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+  }
+  .remote_image{
+    height: auto;
+    width: 100%;
   }
 /*athulya contact*/
   .image{
