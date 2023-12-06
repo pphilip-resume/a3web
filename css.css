@@ -334,6 +334,7 @@ display: block
 color: cadetblue;
 font-style: italic;
 }
+/* Priscilla */
 
 .footer{
   position: absolute;
@@ -474,6 +475,7 @@ display: block;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
   }
+  
 /*athulya contact*/
   .image{
     background-image:url("images/as-1.png");
