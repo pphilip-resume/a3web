@@ -633,3 +633,16 @@ line-height: 0.6cm;
 h1{
     color:white;
 }
+.img1{
+  margin-left: 5pc;
+  margin-bottom: 1pc;
+}
+
+.img{
+  margin-top: 2pc;
+  margin-left: 3pc;
+  margin-bottom: 2pc;
+}
+.okok{
+ background-color:cadetblue;
+}
