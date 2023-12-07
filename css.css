@@ -1,11 +1,9 @@
 
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+  
   .row::after {
     content: "";
     clear: both;
@@ -232,58 +230,7 @@ background-attachment: fixed;
 background-size: cover;
           overflow-x: hidden;
           display: block;
-
-
-
 }
-/* .footer{
-  position:bottom;
-  bottom:0px}
-.footer .footer-content {
-/* max-width: 600px;  */
-/*margin: 0 auto;
-display: flexbox;
-justify-content: space-between;
-background-color: beige;
-  margin-bottom:2px;
-/* flex-direction: row; */
-
-/*
-
-.footer-content .footer-column ul {
-list-style: none;
-padding: 0;
-background-color: beige;
-
-/* text-decoration: none; */
-
-/*
-.footer-column ul li {
-margin-bottom: 8px;
-text-decoration: none;
-}
-
-.footer-column ul li a {
-text-decoration: none;
-color: #333;
-transition: color 0.3s ease;
-}
-
-.footer-column ul li a:hover {
-color: #555;
-}
-@media only screen and (min-width: 768px){
-.footer-column{
-  flex-direction:column;
-}
-.footer-content{
-  flex-direction:column;
-}
-
-.footer ul li a{
-    width: 100%;
-    text-align: center;
-}} */
 .figure{
   display: block;
   margin: 0px;
@@ -377,13 +324,14 @@ width: max-content;
   line-height: 1px;
   padding-bottom: 2px;
   margin-bottom: 0%;
+  color:white;
 }
 .footer_start p{
   max-width: 500px;
   margin: 10px auto;
   line-height: 1px;
   font-size: 10px;
-  color: #0a60ea;
+  color: #f0e850;
 }
 .footer_media{
   list-style: none;
@@ -492,7 +440,7 @@ display: block;
   }
   .remote_image{
     height: auto;
-    width: 50%;
+    width: 100%;
   }
 /*athulya contact*/
   .image{
@@ -501,19 +449,72 @@ display: block;
     background-size: cover;
   }
   .contact{
-  padding-top: 10px;
-  padding-right: 90px;
-  padding-bottom: 70px;
-  padding-left: 80px;
-  min-height:100vh;
-  text-align:center;
+  padding:30px;
+  display:block;
+  box-sizing: border-box;
 
   }
   .content{
-    max-width:800px;
-    margin:0 auto;
+    max-width:1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+    box-sizing:border-box;
+}
+
+  .contactus{
+    -webkit-box-pack: center;
+    justify-content: center;
+    display:flex;
+    margin-right:-15px;
+    margin-left: -15px;
+    box-sizing:border-box;
+  }
+  .heading-section{
+    font-size:28px;
+    color:#000;
+    font-weight: 300;
+    font-family: "Poppins", Arial, sans-serif;
+    display:block;
 
   }
+  .service{
+    margin-left: 0;
+    margin-right: 0;
+    display:flex;
+    box-sizing:border-box;
+  }
+  .left{
+    padding-right:0;
+    padding-left:0;
+    display:block;
+    -webkit-box-flex: 0;
+    max-width: 50px;
+    position: relative;
+   
+  }
+  .details{
+    box-sizing:border-box;
+    display: block;
+
+  }
+  .write{
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 20px;
+
+  }
+
+
+
+
+
+
   .content h2{
     font-size:36px;
     
@@ -591,7 +592,8 @@ line-height: 0.6cm;
  border-radius: 20px;
  }
  /* end of new box */
+ /* casestudy font */
 
-h3{
-    color:white;
-}
+ p{
+  font-size: larger;
+ }
