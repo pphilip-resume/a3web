@@ -301,12 +301,12 @@ width: max-content;
 
 .footer{
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   background: rgb(225, 135, 239);
   height: auto;
-  width: 100;
+  width: 100%;
   padding-top: 40px;
   color: rgb(13, 2, 72);
 }
@@ -339,7 +339,7 @@ width: max-content;
   display: flex;
   align-items:baseline;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
+  margin: 1rem 0 3rem 0rem;
 }
 .footer_media ul{
   display: flex;
@@ -421,7 +421,7 @@ display: block;
     
   }
   }
-  .remote{
+  .remote_page{
     color: #4f0dcf;
     font-weight: 300;
     text-align: center;
@@ -433,12 +433,6 @@ display: block;
     text-align: center;
 
   }
-    /* Code :Priscilla ends */
-  .overview p{
-    color: #000;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
-  }
   .remote_image{
     height: auto;
     width: 100%;
@@ -449,7 +443,7 @@ display: block;
     display:flex;
     padding:10px;
   }
-  .remote_1 ul{
+  .remote_1 .remote_photo{
     display: flex;
     padding: 10px;
   }
@@ -462,11 +456,18 @@ display: block;
     display:flex;
     padding:10px;
   }
-  .remote_3 ul{
+  .remote_3 .remote_page_image-2{
     display: flex;
     padding: 20px;
     flex-direction: column;
   }
+    /* Code :Priscilla ends */
+  .overview p{
+    color: #000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+  }
+  
     
 /*athulya contact*/
   .contactpage{
