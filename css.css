@@ -305,7 +305,7 @@ width: max-content;
   right: 0;
   background: rgb(225, 135, 239);
   height: auto;
-  /* width: 100vw; */
+  width: 100;
   padding-top: 40px;
   color: rgb(13, 2, 72);
 }
