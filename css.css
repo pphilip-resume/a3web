@@ -321,12 +321,12 @@ background-color: white
 
 .footer{
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   background: rgb(225, 135, 239);
   height: auto;
-  width: 100;
+  width: 100%;
   padding-top: 40px;
   color: rgb(13, 2, 72);
 }
@@ -359,7 +359,7 @@ background-color: white
   display: flex;
   align-items:baseline;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
+  margin: 1rem 0 3rem 0rem;
 }
 .footer_media ul{
   display: flex;
