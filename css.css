@@ -428,18 +428,24 @@ display: block;
     width: 100%;
   }
 /*athulya contact*/
-  .image{
-    background-image:url("images/as-1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+  .contactpage{
+    display:inline;
   }
+  
+  .allcontainer{
+    margin-left: 30%;
+    margin-bottom: 30%;
+    }
   .contact{
-  padding:30px;
-  display:block;
-  box-sizing: border-box;
-
-  }
-  .content{
+  background-color: lightgrey;
+  width: 40%;
+  border: 15px solid green;
+  display:box;
+  box-pack:center;
+  padding: 50px;
+  
+ }
+  /* .content{
     max-width:1140px;
     width: 100%;
     padding-right: 15px;
@@ -495,26 +501,12 @@ display: block;
 
   }
 
+ */
 
 
 
 
-
-  .content h2{
-    font-size:36px;
-    
-    color:#d6d6d6
-  }
-  .content p{
-    font-size:40px;
-    color:#ccc
-
-  }
-  .methods{
-    display:grid;
-    grid-template-columns: auto auto ;
-    gap:2px;
-  }
+  
  .hmm {
     font-size: larger;
     line-height: 0.8cm;
