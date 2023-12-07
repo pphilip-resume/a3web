@@ -29,10 +29,9 @@
 //     }
 //   }
 
-//
- Javascript for 'Home' Page
-             Owner: Emmanuel
-             From: w3schools //
+// Javascript for 'Home' Page
+            //  Owner: Emmanuel
+            //  From: w3schools //
 function toggleText(boxId, newText, originalText) {
   var x = document.getElementById(boxId);
   x.innerHTML = x.innerHTML === newText ? originalText : newText;
