@@ -125,6 +125,7 @@ ul.li {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
 .careers{
 text-align: center;
 
@@ -206,6 +207,8 @@ text-decoration: none;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+
+
 }
 
 /*dennis---- logo css*/
@@ -239,14 +242,17 @@ background-size: cover;
   height: auto;
   
   }
+  
+  
+  
   .reviewback{background-image: url(images/blackback.png) ;
   background-attachment: fixed;
   background-size: cover;
             overflow-x: hidden;}                                      /*The css for the background image in the review page*/
   .reviewper1{background-image: url("images/peopler.png");
   padding: 50px;
-  margin-top: 10%;
-  margin-bottom: 25%;
+  margin-top: 0%;
+  margin-bottom: 5%;
             overflow-x: hidden;                                     /*The css for the  ssecond background image in the review page*/
             margin-left: 25%;                                                       
   margin-right: 25%;
@@ -258,8 +264,11 @@ background-size: cover;
   color: gold
   ;display: block;
   padding: 30px ;
-  overflow-x: hidden;                                     
-  float:left;                                                                                     
+            overflow-x: hidden;                                     
+            
+            
+            
+            float:left;                                                                                     
   }
   .reviewper3{align-items: center;
   display:block;}
@@ -272,15 +281,18 @@ font-size:larger;
 margin-left: 0%;
 padding-left: 0%;
 background-color: #9a249c;
+
 }
 .usmod{margin-left:20%;
   align-items: center;
   margin-right: 20%;                           /*the wrap for the about all the members in the aubout us page*/
+
 }
 .us{
 display: block;
 align-content: center;             /*the wrap for the about individual members in the aubout us page*/
 margin-top:25PX;
+
 }
 
 .about{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -289,6 +301,7 @@ font-style: italic;
 background-color: #640670;
 margin-left: 30%;
 margin-right: 30%;
+
 }
 .abthed{max-width: 100%;
 height: auto;}
@@ -349,6 +362,7 @@ height: auto;}
   border: 1.1px solid white;
   padding: 5px;
   border-radius: 20%;
+
 }
 .footer_media a i{
   font-size: 1.1rem;
@@ -383,6 +397,7 @@ height: auto;}
 }
 .footer_menu{
   float:right;
+
 }
 .footer_menu ul{
   display: flex;
@@ -407,12 +422,14 @@ display: block;
     margin-bottom: 20px;
   }
   .footer_media {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-bottom: 20px;  
-  }}
-
+    
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    
+  }
+  }
   .remote_page{
     color: #4f0dcf;
     font-weight: 300;
@@ -459,6 +476,7 @@ display: block;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
   }
+  
     
 /*athulya contact*/
   .contactpage{
@@ -482,7 +500,7 @@ display: block;
  /* image on homepage */
  
 .okok{
-  max-height: 700px;
+  max-height: 500px;
  background-color:cadetblue;
  }
 
@@ -511,19 +529,23 @@ line-height: 0.6cm;
 
 .img1{
     max-width: fit-content;
-    margin-left:5pc;
 }
 
 .img{
     max-width: fit-content;
-    margin-left:2pc;
-    margin-top:1pc;
 }
+
+
+
+
+
 
 /* Emmanuel - home - new box */
 .newbox{
+  background-color: linear-gradient(298deg,#f70b7f 3%,#9a249c 60%,#4f0dcf 97%);
   float: left;
-  
+  border: #fff solid 2px;
+  border-radius: 5%;
 }
 #clickbox1{
   width: 300px;
@@ -586,6 +608,10 @@ h1{
   font-size: 20px;
   font-weight: bolder;
 }
-.pay{
- background-color:cadetblue;
+    
+.subscription {
+ background-color:grey;
+ font-size: medium;
 }
+
+
