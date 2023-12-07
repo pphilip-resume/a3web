@@ -38,8 +38,8 @@ function toggleText(boxId, newText, originalText) {
 }
 
      //   Javascript for 'Contact Us' Page
-             Owner: Prateek
-             From: w3schools  //
+            //  Owner: Prateek
+            //  From: w3schools  //
 
 function myFunction() {
     document.getElementById("demo1").innerHTML = "$9.99* per month";
