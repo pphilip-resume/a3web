@@ -443,6 +443,27 @@ display: block;
     height: auto;
     width: 100%;
   }
+  .remote_1{
+    height: 197px;
+    width:350px;
+    display:flex;
+    padding:10px;
+  }
+  .remote_1 ul{
+    display: flex;
+    padding: 10px;
+  }
+  .remote_3{
+    height: 197px;
+    width:350px;
+    display:flex;
+    padding:10px;
+  }
+  .remote_3 ul{
+    display: flex;
+    padding: 10px;
+  }
+    
 /*athulya contact*/
   .image{
     background-image:url("images/as-1.png");
