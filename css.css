@@ -489,7 +489,7 @@ display: block;
     }
   .contact{
   background-color: lightgrey;
-  width: 40%;
+  width: 40%;                                    /*css form is used*/
   border: 15px solid green;
   display:block;
   box-pack:center;
@@ -596,7 +596,7 @@ h1{
 .clients{
   font-size: 40px;
   color:#640670;
-  text-decoration: underline;
+  text-decoration: underline;              
 }
 .slide{
   width:750px;
@@ -610,7 +610,7 @@ h1{
   font-weight: bolder;
 }
     
-.subscription {
+.pay{
  background-color:grey;
  font-size: medium;
 }
