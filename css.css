@@ -485,7 +485,7 @@ display: block;
   
   .allcontainer{
     margin-left: 30%;
-    margin-bottom: 30%;
+    margin-bottom: 10%;
     }
   .contact{
   background-color: lightgrey;
@@ -519,7 +519,7 @@ line-height: 0.6cm;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 412px;
+  width: 812px;
 }
 
 
@@ -611,8 +611,9 @@ h1{
 }
     
 .pay{
- background-color:grey;
+ background-color:rgb(216, 200, 200);
  font-size: medium;
+padding:60px;
 }
 
 
