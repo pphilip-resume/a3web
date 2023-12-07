@@ -319,7 +319,7 @@ background-color: white
   right: 0;
   background: rgb(225, 135, 239);
   height: auto;
-  /* width: 100vw; */
+  width: 100;
   padding-top: 40px;
   color: rgb(13, 2, 72);
 }
@@ -456,19 +456,46 @@ display: block;
     height: auto;
     width: 100%;
   }
+  .remote_1{
+    height: 197px;
+    width:350px;
+    display:flex;
+    padding:10px;
+  }
+  .remote_1 ul{
+    display: flex;
+    padding: 10px;
+  }
+  .remote_3{
+    height: 197px;
+    width:350px;
+    display:flex;
+    padding:10px;
+  }
+  .remote_3 ul{
+    display: flex;
+    padding: 10px;
+  }
+    
 /*athulya contact*/
-  .image{
-    background-image:url("images/as-1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+  .contactpage{
+    display:inline;
   }
+  
+  .allcontainer{
+    margin-left: 30%;
+    margin-bottom: 30%;
+    }
   .contact{
-  padding:30px;
-  display:block;
-  box-sizing: border-box;
-
-  }
-  .content{
+  background-color: lightgrey;
+  width: 40%;
+  border: 15px solid green;
+  display:box;
+  box-pack:center;
+  padding: 50px;
+  
+ }
+  /* .content{
     max-width:1140px;
     width: 100%;
     padding-right: 15px;
@@ -524,26 +551,12 @@ display: block;
 
   }
 
+ */
 
 
 
 
-
-  .content h2{
-    font-size:36px;
-    
-    color:#d6d6d6
-  }
-  .content p{
-    font-size:40px;
-    color:#ccc
-
-  }
-  .methods{
-    display:grid;
-    grid-template-columns: auto auto ;
-    gap:2px;
-  }
+  
  .hmm {
     font-size: larger;
     line-height: 0.8cm;
@@ -611,3 +624,6 @@ line-height: 0.6cm;
  p{
   font-size: larger;
  }
+h1{
+    color:white;
+}
