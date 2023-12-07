@@ -303,6 +303,9 @@ margin-left: 30%;
 margin-right: 30%;
 
 }
+.abthed{max-width: 100%;
+height: auto;}
+
 /* Priscilla */
 
 .footer{
@@ -493,61 +496,7 @@ display: block;
   padding: 50px;
   
  }
-  /* .content{
-    max-width:1140px;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    display:block;
-    box-sizing:border-box;
-}
-
-  .contactus{
-    -webkit-box-pack: center;
-    justify-content: center;
-    display:flex;
-    margin-right:-15px;
-    margin-left: -15px;
-    box-sizing:border-box;
-  }
-  .heading-section{
-    font-size:28px;
-    color:#000;
-    font-weight: 300;
-    font-family: "Poppins", Arial, sans-serif;
-    display:block;
-
-  }
-  .service{
-    margin-left: 0;
-    margin-right: 0;
-    display:flex;
-    box-sizing:border-box;
-  }
-  .left{
-    padding-right:0;
-    padding-left:0;
-    display:block;
-    -webkit-box-flex: 0;
-    max-width: 50px;
-    position: relative;
-   
-  }
-  .details{
-    box-sizing:border-box;
-    display: block;
-
-  }
-  .write{
-    margin-bottom: 0;
-    line-height: 1.5;
-    font-weight: 400;
-    font-family: "Poppins", Arial, sans-serif;
-    font-size: 20px;
-
-  }
+ 
 
  */
  /* image on homepage */
