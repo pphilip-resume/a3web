@@ -350,8 +350,9 @@ width: max-content;
 .footer_media a{
   text-decoration: none;
   color: #fff;
-  border: 1.1px solid white;
+  border: 1.1px solid black;
   padding: 5px;
+  position: relative;
   border-radius: 20%;
 
 }
@@ -453,6 +454,9 @@ display: block;
     display: flex;
     padding: 10px;
   }
+  .remote_image_2{
+    margin: 10px;
+  }
   .remote_3{
     height: 197px;
     width:350px;
@@ -461,8 +465,10 @@ display: block;
   }
   .remote_3 ul{
     display: flex;
-    padding: 10px;
+    padding: 20px;
+    flex-direction: column;
   }
+ 
     
 /*athulya contact*/
   .image{
