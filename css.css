@@ -553,7 +553,7 @@ display: block;
  /* image on homepage */
  
 .okok{
-  max-height: 500px;
+  max-height: 700px;
  background-color:cadetblue;
  }
 
@@ -587,11 +587,6 @@ line-height: 0.6cm;
 .img{
     max-width: fit-content;
 }
-
-
-
-
-
 
 /* Emmanuel - home - new box */
 .newbox{
