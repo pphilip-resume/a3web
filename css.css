@@ -614,3 +614,15 @@ line-height: 0.6cm;
 h1{
     color:white;
 }
+.clients{
+  font-size: 40px;
+  color:#640670;
+  text-decoration: underline;
+}
+.slide{
+  width:750px;
+  margin: auto;
+  border:5px solid ;
+  
+}
+
