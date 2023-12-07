@@ -485,13 +485,13 @@ display: block;
   
   .allcontainer{
     margin-left: 30%;
-    margin-bottom: 30%;
+    margin-bottom: 10%;
     }
   .contact{
   background-color: lightgrey;
   width: 40%;                                    /*css form is used*/
   border: 15px solid green;
-  display:box;
+  display:block;
   box-pack:center;
   padding: 50px;
   
@@ -519,7 +519,7 @@ line-height: 0.6cm;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 412px;
+  width: 812px;
 }
 
 
@@ -587,6 +587,7 @@ line-height: 0.6cm;
 
  p{
   font-size: larger;
+  
  }
 h1{
     color:white;
@@ -609,9 +610,10 @@ h1{
   font-weight: bolder;
 }
     
-.subscription {
- background-color:grey;
+.pay{
+ background-color:rgb(216, 200, 200);
  font-size: medium;
+padding:60px;
 }
 
 
