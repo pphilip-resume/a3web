@@ -220,7 +220,7 @@ left:10px;}
 min-width: 100%;
 margin:0px auto;
 background-color: dimgray;
-background-image:url("images/andrew-stutesman-l68Z6eF2peA-unsplash.jpg");
+background-image:url("images/andrew-stutesman-l68Z6eF2peA-unsplash.jpg"); /*CSS that wrap the features inside the About us page */
 background-position:center;
 background-size: 100%;
 font-family: 'Times New Roman', Times, serif;
@@ -236,24 +236,25 @@ background-size: cover;
   margin: 0px;
   padding: 10px;
   text-align: left;
-  border: 1px solid #d6d6d6;
+  border: 1px solid #d6d6d6;/*The css for the images inside the  about us page*/
   padding-left:30%;
+  max-width: 100%;
+  height: auto;
   
   }
   
-  .aboutheader {
-  position: relative;
-  padding: 200px 0; }
+  
   
   .reviewback{background-image: url(images/blackback.png) ;
   background-attachment: fixed;
   background-size: cover;
-            overflow-x: hidden;}
+            overflow-x: hidden;}                                      /*The css for the background image in the review page*/
   .reviewper1{background-image: url("images/peopler.png");
   padding: 50px;
   margin-top: 10%;
   margin-bottom: 25%;
-  margin-left: 25%;
+            overflow-x: hidden;                                     /*The css for the  ssecond background image in the review page*/
+            margin-left: 25%;                                                       
   margin-right: 25%;
   
   }
@@ -263,13 +264,17 @@ background-size: cover;
   color: gold
   ;display: block;
   padding: 30px ;
-  float:left;
+            overflow-x: hidden;                                     
+            
+            
+            
+            float:left;                                                                                     
   }
   .reviewper3{align-items: center;
   display:block;}
 .aboutname{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: #1a1919;
+color: #1a1919;/*The css for the  image in the review page*/
 font-size: 50px;
 font-weight: bold;
 font-size:larger;
@@ -280,12 +285,12 @@ background-color: #9a249c;
 }
 .usmod{margin-left:20%;
   align-items: center;
-  margin-right: 20%;
+  margin-right: 20%;                           /*the wrap for the about all the members in the aubout us page*/
 
 }
 .us{
 display: block;
-align-content: center;
+align-content: center;             /*the wrap for the about individual members in the aubout us page*/
 margin-top:25PX;
 
 }
