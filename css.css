@@ -411,7 +411,7 @@ display: block;
     flex-direction: column;
     margin-top: 10px;
     margin-bottom: 20px;  
-  }
+  }}
 
   .remote_page{
     color: #4f0dcf;
@@ -471,7 +471,7 @@ display: block;
     }
   .contact{
   background-color: lightgrey;
-  width: 40%;
+  width: 40%;                                    /*css form is used*/
   border: 15px solid green;
   display:box;
   box-pack:center;
@@ -573,7 +573,7 @@ h1{
 .clients{
   font-size: 40px;
   color:#640670;
-  text-decoration: underline;
+  text-decoration: underline;              
 }
 .slide{
   width:750px;
