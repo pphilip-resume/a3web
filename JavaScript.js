@@ -29,11 +29,17 @@
 //     }
 //   }
 
-
+// Javascript for 'Home' Page
+            //  Owner: Emmanuel
+            //  From: w3schools //
 function toggleText(boxId, newText, originalText) {
   var x = document.getElementById(boxId);
   x.innerHTML = x.innerHTML === newText ? originalText : newText;
 }
+
+     //   Javascript for 'Contact Us' Page
+             Owner: Prateek
+             From: w3schools  //
 
 function myFunction() {
     document.getElementById("demo1").innerHTML = "$9.99* per month";
