@@ -421,7 +421,7 @@ display: block;
     
   }
   }
-  .remote{
+  .remote_page{
     color: #4f0dcf;
     font-weight: 300;
     text-align: center;
@@ -449,7 +449,7 @@ display: block;
     display:flex;
     padding:10px;
   }
-  .remote_1 ul{
+  .remote_1 .remote_photo{
     display: flex;
     padding: 10px;
   }
