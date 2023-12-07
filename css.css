@@ -30,7 +30,14 @@
   padding: 15px;
 }
 
-
+.link_hover ul{
+  padding: 0;
+}
+.link_hover ul li{
+  padding: 0%;
+  display: block;
+}
+.link_hover ul li:hover ul {display: block;}
 html {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
