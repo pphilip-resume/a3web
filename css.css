@@ -484,10 +484,6 @@ display: block;
     height: 197px;
     width:350px;
     display:flex;
-    padding:10px;
-  }
-  .remote_3 ul{
-    display: flex;
     padding: 20px;
     flex-direction: column;
   }
