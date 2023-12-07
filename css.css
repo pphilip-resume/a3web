@@ -30,7 +30,14 @@
   padding: 15px;
 }
 
-
+.link_hover ul{
+  padding: 0;
+}
+.link_hover ul li{
+  padding: 0%;
+  display: block;
+}
+.link_hover ul li:hover ul {display: block;}
 html {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -315,7 +322,7 @@ position: relative;
 background-color: white
 ;
 }
-/* Priscilla */
+/* Code :Priscilla */
 
 .footer{
   position: absolute;
@@ -368,8 +375,9 @@ background-color: white
 .footer_media a{
   text-decoration: none;
   color: #fff;
-  border: 1.1px solid white;
+  border: 1.1px solid black;
   padding: 5px;
+  position: relative;
   border-radius: 20%;
 
 }
@@ -451,7 +459,7 @@ display: block;
     text-align: center;
 
   }
-
+    /* Code :Priscilla ends */
   .overview p{
     color: #000;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -471,6 +479,9 @@ display: block;
     display: flex;
     padding: 10px;
   }
+  .remote_image_2{
+    margin: 10px;
+  }
   .remote_3{
     height: 197px;
     width:350px;
@@ -479,8 +490,10 @@ display: block;
   }
   .remote_3 ul{
     display: flex;
-    padding: 10px;
+    padding: 20px;
+    flex-direction: column;
   }
+ 
     
 /*athulya contact*/
   .contactpage{
@@ -631,4 +644,17 @@ line-height: 0.6cm;
  }
 h1{
     color:white;
+}
+.img1{
+  margin-left: 5pc;
+  margin-bottom: 1pc;
+}
+
+.img{
+  margin-top: 2pc;
+  margin-left: 3pc;
+  margin-bottom: 2pc;
+}
+.okok{
+ background-color:cadetblue;
 }
