@@ -285,6 +285,7 @@ background-color: #9a249c;
 .us{
 display: block;
 align-content: center;
+margin-top:25PX;
 
 }
 
@@ -305,7 +306,7 @@ width: max-content;
   right: 0;
   background: rgb(225, 135, 239);
   height: auto;
-  /* width: 100vw; */
+  width: 100;
   padding-top: 40px;
   color: rgb(13, 2, 72);
 }
@@ -596,10 +597,4 @@ line-height: 0.6cm;
 
  p{
   font-size: larger;
- }
-
- ul{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-decoration: none;
-  text-align: center;
  }
