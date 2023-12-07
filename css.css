@@ -597,3 +597,9 @@ line-height: 0.6cm;
  p{
   font-size: larger;
  }
+
+ ul{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  text-align: center;
+ }
