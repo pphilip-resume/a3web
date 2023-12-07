@@ -251,8 +251,8 @@ background-size: cover;
             overflow-x: hidden;}                                      /*The css for the background image in the review page*/
   .reviewper1{background-image: url("images/peopler.png");
   padding: 50px;
-  margin-top: 10%;
-  margin-bottom: 25%;
+  margin-top: 0%;
+  margin-bottom: 5%;
             overflow-x: hidden;                                     /*The css for the  ssecond background image in the review page*/
             margin-left: 25%;                                                       
   margin-right: 25%;
@@ -303,6 +303,9 @@ margin-left: 30%;
 margin-right: 30%;
 
 }
+.abthed{max-width: 100%;
+height: auto;}
+
 /* Priscilla */
 
 .footer{
@@ -482,74 +485,18 @@ display: block;
   
   .allcontainer{
     margin-left: 30%;
-    margin-bottom: 30%;
+    margin-bottom: 10%;
     }
   .contact{
   background-color: lightgrey;
-  width: 40%;
+  width: 40%;                                    /*css form is used*/
   border: 15px solid green;
-  display:box;
+  display:block;
   box-pack:center;
   padding: 50px;
   
  }
-  /* .content{
-    max-width:1140px;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    display:block;
-    box-sizing:border-box;
-}
 
-  .contactus{
-    -webkit-box-pack: center;
-    justify-content: center;
-    display:flex;
-    margin-right:-15px;
-    margin-left: -15px;
-    box-sizing:border-box;
-  }
-  .heading-section{
-    font-size:28px;
-    color:#000;
-    font-weight: 300;
-    font-family: "Poppins", Arial, sans-serif;
-    display:block;
-
-  }
-  .service{
-    margin-left: 0;
-    margin-right: 0;
-    display:flex;
-    box-sizing:border-box;
-  }
-  .left{
-    padding-right:0;
-    padding-left:0;
-    display:block;
-    -webkit-box-flex: 0;
-    max-width: 50px;
-    position: relative;
-   
-  }
-  .details{
-    box-sizing:border-box;
-    display: block;
-
-  }
-  .write{
-    margin-bottom: 0;
-    line-height: 1.5;
-    font-weight: 400;
-    font-family: "Poppins", Arial, sans-serif;
-    font-size: 20px;
-
-  }
-
- */
  /* image on homepage */
  
 .okok{
@@ -572,7 +519,7 @@ line-height: 0.6cm;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 412px;
+  width: 812px;
 }
 
 
@@ -595,7 +542,10 @@ line-height: 0.6cm;
 
 /* Emmanuel - home - new box */
 .newbox{
-  float: right;
+  background-color: linear-gradient(298deg,#f70b7f 3%,#9a249c 60%,#4f0dcf 97%);
+  float: left;
+  border: #fff solid 2px;
+  border-radius: 5%;
 }
 #clickbox1{
   width: 300px;
@@ -637,6 +587,7 @@ line-height: 0.6cm;
 
  p{
   font-size: larger;
+  
  }
 h1{
     color:white;
@@ -645,7 +596,7 @@ h1{
 .clients{
   font-size: 40px;
   color:#640670;
-  text-decoration: underline;
+  text-decoration: underline;              
 }
 .slide{
   width:750px;
@@ -658,4 +609,11 @@ h1{
   font-size: 20px;
   font-weight: bolder;
 }
+    
+.pay{
+ background-color:rgb(216, 200, 200);
+ font-size: medium;
+padding:60px;
+}
+
 
