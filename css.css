@@ -491,7 +491,7 @@ display: block;
   background-color: lightgrey;
   width: 40%;
   border: 15px solid green;
-  display:box;
+  display:block;
   box-pack:center;
   padding: 50px;
   
@@ -587,6 +587,7 @@ line-height: 0.6cm;
 
  p{
   font-size: larger;
+  
  }
 h1{
     color:white;
