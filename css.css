@@ -433,7 +433,7 @@ display: block;
     text-align: center;
 
   }
-    
+    /* Code :Priscilla ends */
   .overview p{
     color: #000;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -448,6 +448,8 @@ display: block;
     width:350px;
     display:flex;
     padding:10px;
+  }
+  .remote_1 ul{
     display: flex;
     padding: 10px;
   }
@@ -458,6 +460,10 @@ display: block;
     height: 197px;
     width:350px;
     display:flex;
+    padding:10px;
+  }
+  .remote_3 ul{
+    display: flex;
     padding: 20px;
     flex-direction: column;
   }
