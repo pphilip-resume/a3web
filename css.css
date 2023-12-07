@@ -423,10 +423,9 @@ display: block;
       display: flex;
       flex-direction: column;
       margin-top: 10px;
-      margin-bottom: 20px;
-    
+      margin-bottom: 20px;  
   }
-  }
+
   .remote_page{
     color: #4f0dcf;
     font-weight: 300;
@@ -582,10 +581,13 @@ line-height: 0.6cm;
 
 .img1{
     max-width: fit-content;
+    margin-left:5pc;
 }
 
 .img{
     max-width: fit-content;
+    margin-left:2pc;
+    margin-top:1pc;
 }
 
 /* Emmanuel - home - new box */
