@@ -18,7 +18,9 @@
     float: left;
     padding: 15px;
   }
-
+/* property related to navbar */
+/* Owner: Prateek */
+/* Source: w3schools and color-gradiant is from website called 'Parachute' */
 .row::after {
   content: "";
   clear: both;
@@ -69,7 +71,9 @@ html {
   color: #ffffff;
   box-shadow: 0 10px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-
+/* property related to header*/
+/* Owner: Athulya */
+/* Source: w3schools  */
 .header {
   background-color: #03a8a8;
   padding: 30px;
@@ -90,7 +94,13 @@ html {
 [class*="col-"] {
   width: 100%;
 }
+/* property related to header*/
+/* Owner: Athulya */
+/* Source: w3schools  */
 
+/* property related to responsive*/
+/* Prateek,Priscilla */
+/* Source: w3schools  *
 @media only screen and (min-width: 600px) {
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
@@ -128,6 +138,8 @@ ul.li {
 }
 
 
+/* Owner: priscilla */
+/* Source: w3schools  */
 .careers{
 text-align: center;
 
@@ -177,12 +189,16 @@ color: #9a249c ;
     font-family: Cambria, serif;
     margin: 2px;
   }
+/* Owner: dennis */
+/* Source: w3schools  */
 .mail{
 background-color: yellow;
 padding: 3px; ;
 -webkit-text-fill-color: crimson;
 text-decoration: none;
 }
+/* Owner:Prateek */
+/* Source: w3schools  */
   /* Style for seasrch container */
 .searchc {
   text-align: right;
@@ -244,22 +260,23 @@ background-size: cover;
   height: auto;
   
   }
+
   
-  
-  
+  /*The css for the background image in the review page*/
   .reviewback{background-image: url(images/blackback.png) ;
   background-attachment: fixed;
   background-size: cover;
-            overflow-x: hidden;}                                      /*The css for the background image in the review page*/
+            overflow-x: hidden;}                                      
   .reviewper1{background-image: url("images/peopler.png");
   padding: 50px;
   margin-top: 0%;
   margin-bottom: 5%;
-            overflow-x: hidden;                                     /*The css for the  ssecond background image in the review page*/
+            overflow-x: hidden;                                     
             margin-left: 25%;                                                       
   margin-right: 25%;
   
-  }
+  } 
+/*The css for the  ssecond background image in the review page*/
   .reviewper2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: italic;
   font-size: large;
@@ -287,12 +304,13 @@ background-color: #9a249c;
 }
 .usmod{margin-left:20%;
   align-items: center;
-  margin-right: 20%;                           /*the wrap for the about all the members in the aubout us page*/
-
-}
+  margin-right: 20%;                          
+} 
+/*the wrap for the about all the members in the aubout us page*/
+/*the wrap for the about individual members in the aubout us page*/
 .us{
 display: block;
-align-content: center;             /*the wrap for the about individual members in the aubout us page*/
+align-content: center;             
 margin-top:25PX;
 
 }
@@ -431,7 +449,9 @@ display: block;
       margin-bottom: 20px;
     
   }
-  }
+  
+/* Owner:Priscilla */
+/* Source: w3schools  */
   .remote_page{
     color: #4f0dcf;
     font-weight: 300;
@@ -473,6 +493,9 @@ display: block;
     flex-direction: column;
   }
     /* Code :Priscilla ends */
+
+    /* Owner:Prateek */
+/* Source: w3schools  */
   .overview p{
     color: #000;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -500,7 +523,8 @@ display: block;
  }
 
  /* image on homepage */
- 
+ /* Owner:Prateek */
+/* Source: w3schools  */
 .okok{
   max-height: 500px;
  background-color:cadetblue;
@@ -590,6 +614,8 @@ h1{
     color:white;
 }
 /*client page*/
+    /* Owner:Athulya */
+/* Source: w3schools  */
 .clients{
   font-size: 40px;
   color:#640670;
